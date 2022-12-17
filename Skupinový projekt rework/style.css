@@ -1,0 +1,158 @@
+h1 {
+	font-family: Arial;
+	font-size: 50px;
+	text-align: center;
+	margin-top: 30px;
+	text-decoration: underline;
+	text-shadow: 2px 2px black;
+}
+
+h2 {
+	font-family: arial;
+	font-size:30px;
+	padding: 10px;
+
+}
+
+h3 {
+	padding: 10px;
+	font-family: Arial;
+	font-size:20px;
+}
+
+
+h4 {
+	font-family: arial;
+	font-size: 25px;
+	padding: 30px;
+}
+
+h5 {
+	padding: 10px;
+	font-family: Arial;
+	font-size:20px;
+	text-align: justify;
+	margin-left: 50px;
+}
+
+
+.div-1 {
+	margin.top: 50px;
+	padding: 30px;
+	font-family: Arial;
+	font-size:20px;
+	border: solid;
+
+
+}
+
+.nav {
+	background: gray;
+	padding: 20px;
+}
+
+
+.plaguedoctor {
+	float:right;
+	padding: 20px;
+	position: relative;
+	bottom: 60px;
+	}
+
+.arcibiskup {
+	float:right;
+	padding: 20px;
+	position: relative;
+	bottom: 100px;
+	
+	}
+
+.kardinal {
+
+	float:right;
+	padding: 20px;
+	position: relative;
+	bottom: 100px;
+	
+	}
+
+.legionary {
+	float:right;
+	padding: 20px;
+	position: relative;
+	bottom: 100px;
+	
+}
+
+.hades {
+	float:right;
+	padding: 20px;
+	position: relative;
+	bottom: 100px;
+}
+
+.persefona {
+	float:right;
+	padding: 20px;
+	position: relative;
+	bottom: 100px;
+}
+
+.ktulu {
+	float:right;
+	padding: 20px;
+	position: relative;
+	
+	
+	}
+
+.valecnik {
+	float:right;
+	padding: 20px;
+	position: relative;
+	bottom: 100px;
+	
+	}
+
+
+.div-2 {
+	margin.top: 50px;
+	padding: 30px;
+	font-family: Arial;
+	font-size:20px;
+	border: solid;
+
+
+}
+
+.eliminace {
+	margin.top: 50px;
+	padding: 30px;
+	font-family: Arial;
+	font-size:20px;
+	border: solid;
+
+
+}
+
+.footer {
+	background-color: black;
+	font-size: 50px;
+	text-align: center;
+	color: white;
+}
+
+.benefity {
+	margin.top: 50px;
+	padding: 30px;
+	font-family: Arial;
+	font-size:20px;
+	border: solid;
+
+}
+
+h6 {
+	text-align: center;
+	padding: 50px;
+}
+

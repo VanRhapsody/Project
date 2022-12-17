@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+<nav>
+	<div class="nav"  id="Rozhrani">
+		<a href="login.html" style="padding: 20px;">PŘIHLAŠTE SE ZDE</a>
+		
+		<a href="#Figurky" style="padding: 20px;">Figurky</a>
+
+		<a href="#benefity" style="padding: 20px;">Benefity pro přihlášené uživatele</a>
+	</div>
+	
+</nav>	
+<h1>Šachy dle našeho</h1>
+
+
+
+<div class="div-1">
+	<h2>Stručný popis, úvod do programu</h2>
+	<br>
+	<h3>Náš program je inspirován klasickým šachem, který zna bezpochybně každý, a doplňuje jej o unikátní figurky, které mají jak jedinečné způsoby tažení tak i unikátní schopnosti, které dělají šach méně repetitivním a více záživným. Každá figurka má svůj vlastní příběh, který hráče informuje o motivu její přítomnosti v našem šachu. </h3>
+
+</div>
+<div class="div-1" id = "Rozhrani
+">
+	<h2>Technické funkce</h2>
+	<br>
+	<h3>Jak již bylo řečeno v úvodu do programu, chceme v našem šachu používat vlastní figurky. Kromě toho také doufáme, že naprosto každá figurka by měla unikátní ability, které by fungovaly podobně jako QWER ability v League of Legends.</h3>
+</div>
+
+<div class="div-2">
+	<img class="pole" src="Hracipolefigurky.png" height="600px" width="600px" style="float: right; padding: 50px 50px; display: inline-block; overflow: hidden; ">
+	<img class="definice_poe" src="hracipoledefinice.png" width="500px" style="float: right;padding: 50px 50px; display: inline-block; overflow: hidden;">
+	<h2>Hrací pole</h2>
+	
+	<h5>Naše šachy používají typické hrací pole, které nabízí 64 možných pozic pro figurku. Hrací pole je jasně definováno neznámými x a y. Jakmile hráč zadá souřadnice (xh; yh), které by měly vyšší hondotu než stanovené hranice, nebude mu dovoleno se na toto místo přesunout. Toto je zajištěno pomocí jednoduché funkce if.</h5>
+</div>
+	
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+
+<div class="div-2">
+	<h2>Tažení figurek v hracím poli.</h2>
+
+	<h5>Základní tažení figurky v hracím poli je popsáno následujícím vývojovým diagramem. Hrací pole bylo definováno jako rovina, ve které se figurky pohybují na základně souřadnic.</h5>
+
+	<br>
+	<br>
+
+	<img class="normalnitazeni" src="https://cdn.discordapp.com/attachments/1025104449754124320/1028351232185741343/unknown.png" style="margin-left: auto; margin-right: auto; display: block;" >
+</div>
+
+
+<div class="eliminace">
+	<h2>Princip získání figurky</h2>
+
+	<h5>Určení toho, zdali hráč získá figurku je založeno na principu stejných souřadnic. Hráč, který dostane oznámení, že dané souřadnice jsou již obsazeny, získá figurku, protože je potom jasné, že na dané souřadnice přišel později než protihráč. </h5>
+
+	<img class="ziskanifigurky" src="https://cdn.discordapp.com/attachments/1025104449754124320/1038895272908038365/image.png" style="margin-left: auto; margin-right: auto; display: block;">
+
+	<img class="ziskanifigurkykod" src="https://cdn.discordapp.com/attachments/1034897479705047090/1038897109451157586/image.png" style="margin-left: auto; margin-right: auto; display: block; padding: 20px;">
+
+
+
+</div>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<div class="div-3" id="Figurky">
+	<h2>Figurky</h2> <a href="#Rozhrani" style="padding: 20px;">ZPĚT</a>
+	<br>
+	<h5>Při začátku tvorby našeho šachu jsme dospěli k tomu, že kdybychom dělali obyčejné šachy s figurkami, které zná již každý, byla by naše hra vcelku nudná. Tudíž jsme se rozhodli udělat vlastní figurky, které mají vlastní způsoby tažení, které se ale bohužel kvůli omezenosti hracího pole moc neliší od těch obyčejných. Některé figurky mají také unikátní schopnosti, jako je např. možnost nakazit figurku protihráče či ji zmrazit. Vzhled figurek byl vytvořen v obyčejném malování, jelikož grafické programy, ve kterých se dá pracovat s křivkami, jako je např. Corel, jsou zpoplatněné. Přesunutí figurek na transparentní pozadí bylo následně zhotoveno v programu GIMP.</h5>
+
+	<h2>Přehled figurek</h2>
+	<br>
+	<h4>Legionář</h4>
+	<br>
+	<br>
+	<img class="legionary" src="https://cdn.discordapp.com/attachments/1023162553095950417/1034530550481952928/unknown.png" width="400px" height="450px">
+	<img class="legionary" src="https://cdn.discordapp.com/attachments/1023162553095950417/1034173190295003267/unknown.png" width="400px" height="450px"> 
+	<h5>Legionář byl součástí starověké římské pěchoty, který bojoval po boku římské císaře Julie Caesara. Byl také odpovědný za několik válečných zločinů za dob expanze Římského císařství, avšak se postupem času nakonec promlčelo a legionář nebyl za své činy souzen. Díky jeho zásluhám v období expanze onoho císařství se tento legionář dostal až na pozici vůdce celé legionářské armády Římského impéria. Těsně před rozdělením Říma na západní a východní část byl legionář se svojí armádou vyslán Romulem Augustem na misi do Alp, aby zabránil postupu barbarských vojsk do císařství. Cestou do bitvy byl ale opuštěn svým vojskem, načež zůstal sám proti celému vojsku barbarů, které ale nakonec porazil. Po svém triumfálním vítězství se dozvěděl, že jej zradil římský císař, protože se obával jeho vysokého postavení, které by mohlo vést k pokusu o převrat. Legionář tak zůstal naprosto sám a dodnes putuje za účelem dostat se do Říma a pomstít se císaři.</h5>
+	<br>
+	<br>
+	
+	
+	
+	
+	
+	
+	<h4>Morový doktor</h4>
+
+	<p></p>
+	<img class="plaguedoctor" src="https://cdn.discordapp.com/attachments/1023162553095950417/1034891856166785104/unknown.png" width="400px" height="500px">
+	<img class="plaguedoctor" src="https://cdn.discordapp.com/attachments/1023162553095950417/1034891911581933662/unknown.png" width="400px" height="500px">
+	<h5>Morový doktor za dob epidemie moru ve Velké Británii v Londýně po celou dobu své služby usiloval o to zbavit své rodné město všech infikovaných a ochránit tak své druhy v ohrožení, avšak téměř vždy se setkal s nepochopením a odsouzením, které si nedokázal vysvětlit. Obyvatelé Londýna na něj i jeho kolegy hleděli jako na posly smrti a zkázy, kteří jsou pravými nositeli moru. Nepochopení tohoto doktora se s rostoucí nenávistí obyvatel vůči jeho profesi začalo měnit na opětovanou nenávist a touhu po pomstě, kterou chtěl do města přivést v podobě toho, proti čemu se snažil během své služby bojovat – moru. Při vhodné příležitost se tedy zmocnil jedné z obětí tohoto moru, od které se nechal úmyslně nakazit. Ke všemu údivu o provedení tohoto činu přesvědčil i své kolegy, kteří poté neváhali o úmyslném nakažení za účelem zkázy. Zanedlouho se morem úmyslně nakazili všichni moroví doktoři v Londýně a začali úmyslně infikovat každého obyvatele Londýna, kterého potkali. Ironicky se tito doktoři nakonec stali přesně tím, jak je popisovali obyvatelé Londýna.</h5>
+
+	<br>
+	<br>
+	<br>
+	<br>
+	<h4>Arcibiskup</h4>
+
+	<br>
+	<br>
+
+	<img class="arcibiskup" src="https://cdn.discordapp.com/attachments/1023162553095950417/1034892088883560518/unknown.png" width="400px" height="500px">
+	<img class="arcibiskup" src="https://cdn.discordapp.com/attachments/1023162553095950417/1034891992427147295/unknown.png" width="400px" height="500px">
+	<img class="papa" src="https://images.saatchiart.com/saatchi/287796/art/3843181/2913064-HSC00001-7.jpg" width="350px" height="500px" style="padding: 20px; float: right; bottom: 60px; position: relative;">
+	<h5 style="padding: 20px;">Zkažen svojí mocí, arcibiskup měl nejvyšší pozici v katolické církvi ve Francii. Své moci zneužil takovým způsobem, že ve Francii zavedl jako jedinou uznávanou víru křesťanství, přičemž protestantské varianty této víry byly také potlačeny a zakázány. Arcibiskupovi se několik let dařilo omezovat svobodu víry všech občanů, avšak netušil, že tito občané proti němu tajně plánovali povstání, ke kterému zanedlouho nakonec došlo. Arcibiskupovi se naneštěstí povedlo utéct a jedinou náplní jeho dosavadního putování je nalezení místa, které si bude moci opět podmanit. Inspirací pro vzhled této figurky byl Papa Emeritus ze švédské kapely Ghost.</h5>
+
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+
+	<h4>Tažení arcibiskupa</h4>
+
+	<h5>Tažení této figurky lze vidět v následujícím schématu, které je také popsáno kódem ve Visual Studio Code.</h5>
+
+	<img  src="https://cdn.discordapp.com/attachments/1028350098217914408/1042523938997157898/Arcibiskup.png" width="700px" height="700px" style = "float:left; bottom: 100px; padding: 10px;"> 
+	<img  src="https://cdn.discordapp.com/attachments/1028350098217914408/1042523938997157898/Arcibiskup.png" width="700px" height="700px" style = "float:left; bottom: 100px; padding: 10px;"> 
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+
+	<h4>Kardinál</h4>
+
+	<img class="kardinal" src="https://cdn.discordapp.com/attachments/1023162553095950417/1034891444353241108/unknown.png" width="400px" height="500px">
+	<img class="kardinal" src="https://cdn.discordapp.com/attachments/1023162553095950417/1034891488011767899/unknown.png" width="400px" height="500px">
+	<img class="copia" src="https://www.revolvermag.com/sites/default/files/styles/original_image__844px_x_473px_/public/media/section-media/cardinal_copia.png?itok=vDCdcqr1&timestamp=1523017424" width="400px" height="400px" style="padding: 20px; float: right; bottom: 60px; position: relative;">
+
+	<h5>Kardinál kázal ve významné italské rotundě za dob Svaté říše římské. Jeho kázání byla ale většinou velice osobitá a nestyděl se v nich sympatizovat s některými ideály okultismu a s kazateli, kteří byli katolickou církví označeni jako kacíři. Kardinála a jeho zkažené názory by normálně katolická církev ignorovala, avšak k jejich údivu začal kardinál nabírat na popularitě a na jeho kázání se brzy začaly scházet celé obce, a proto začala katolická církev jednat. Tak započala inkvizice, která měla za úkol zbavit se kardinála. Kardinál měl tedy své jednání vysvětlit papeži v Římě. Papeže se mu ale nepodařilo přesvědčit a byl označen za kacíře a odsouzen k upálení. Během jeho upalování se ale pod kardinálem otevřela zem a kardinál spadl do hlubin podzemí, přičemž později se dozvěděl, že kardinála zachránil před smrtí Hádes. Kardinál se tak bohovi podsvětí odvděčil takovým způsobem, že začal působit jako jeho osobní ochránce. Inspirací pro vzhled této figurky byl Kardinál Copia ze švédské kapely Ghost.</h5>
+
+	<h4>Tažení kardinála</h4>
+	<h5>Tažení této figurky popisuje následující schéma, které bylo také přepsáno do kódu ve Visual Studio Code</h5>
+	<img src="https://cdn.discordapp.com/attachments/1028350098217914408/1042523937898250270/Kardinal.png" style="margin-left: auto; margin-right: auto; display: block;">
+	<br>
+	<br>
+	<br>
+	
+	<br>
+	<br>
+	
+	<br>
+	<br>
+	<br>
+	
+	
+
+	<div class="kardinal_tazeni" style="margin-left: auto; margin-right: auto; display: block;">
+		<img src="kardinaltazeni.jpg" style="margin-left: auto; margin-right: auto; display: block;">
+	
+	</div>
+
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>	
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	
+
+	<h4>Hádes</h4>
+	<img class="hades" src="https://cdn.discordapp.com/attachments/1023162553095950417/1034891727405863002/unknown.png" width="450px" height="500px">
+	<img class="hades" src="https://cdn.discordapp.com/attachments/1023162553095950417/1034891661987299449/unknown.png" width="450px" height="500px">
+
+	<h5>Hádes byl nejstarším synem Rheie a Kronose a především bohem podsvětí. Moc nad podsvětím získal, když probíhala dělba moci mezi ním a jeho dvěma bratry – Poseidonem a Zeusem. Hádovi připadlo právě podsvětí, kterého se ochotně ujal a začal tam trávit většinu času, čímž si proti sobě poštval ostatní bohy. I přes nenávist bohů se ale v božích a nebeských záležitostech neangažoval, protože věděl, že každý, kdo se někdy narodil, by nakonec musel přijít do Hádova domů, jímž byla říše mrtvých. Později nad touto říší vládl se svou manželkou Peresfonu, se kterou společně plánuje napadnout dvě zbylé říše a udělat tak z celého světa říši mrtvých. Unikátní schopností této figurky je seslání trojhlavého psa Cerbera, jenž střeží vchod do podsvětí. Provedení této ability je popsáno v následujícím vývojovém diagramu.</h5>
+
+	<br>
+	<br>
+	<br>
+	<br>
+
+	<img class="cerberusdiagram" src="https://media.discordapp.net/attachments/1025104449754124320/1030901821323104436/unknown.png?width=1096&height=676" style="margin-left: auto; margin-right: auto; display: block;">
+	<br>
+	<br>
+	
+	<h4>Persefona</h4>
+	<img class="persefona" src="https://cdn.discordapp.com/attachments/1023162553095950417/1034536030247854191/unknown.png" width="450px" height="500px">
+	<img class="persefona" src="https://cdn.discordapp.com/attachments/1023162553095950417/1034536147369607348/unknown.png" width="450px" height="500px">
+	<h5>Persefona byla spoluvládkyně podsvětí a manželka Hádese. Moc nad touto říší ale nesla proti své vůli, jelikož byla unesena Hádem, který ji na tuto pozici postavil. Zvenku se ale rozhodla potichu trpět v této říši mrtvých a přijmout svůj osud. Celou dobu se ale tajně snažila přijít na způsob, jak oživit všechny mrtvé a pokusit se o vyhnání Hádese z jeho domova. Pokud by se ji toto povedlo, plánovala se dohodnout se Zeusem a Poseidonem a rozdělit říší mrtvých mezi ně. Doteď ale stále čeká na příležitost, kdy by mohla Hádese svrhnout či po něm převzít moc.</h5>
+
+	<br>
+	<br>
+
+	<h4>Válečník</h4>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<img class="valecnik" src="https://cdn.discordapp.com/attachments/1023162553095950417/1051221374544384061/image.png" width="450px" height="500px">
+	<img class="valecnik" src="https://cdn.discordapp.com/attachments/1023162553095950417/1051221256101437480/image.png" width="450px" height="500px">
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div id="benefity" class="benefity">
+	<h2>Benefity pro přihlášené uživatele</h2>
+
+	<h5>Jakmile bude uživatel přihlášený, budou se ukládat jeho výhry, tudíž se bude moci umístit v tabulce nejlepších hráčů. U hráče, jenž bude hrát bez přihlášení, se nebude ukládat počet výher, tudíž pro něj nebude možné se umístit v tabulce.</h5>
+
+	</div>
+	<h2>Škrtnuté návrhy</h2>
+
+	<h4>Ktulu</h4>
+	<br>
+	<br>
+
+	<img class="ktulu" src="https://cdn.discordapp.com/attachments/1023162553095950417/1034533151046910064/unknown.png" width="400px" height="500px"> 
+	<img class="ktulu" src="https://cdn.discordapp.com/attachments/1023162553095950417/1034533038618583180/unknown.png" width="400px" height="500px"> 
+	<h5>Ktulu měla být jednou z figurek, jejíž schopnost byla schovat se do hracího pole a poté vzít jednu z blízkých figurek protihráče do "hlubin hracího pole". Tato schopnost nakonec ale vzešla jako zbytečná, jelikož protihráč si mohl zapamatovat, kam se Ktulu schovala a mohl by se tomuto místo jedndouše vyhýbat, nebo do něj poslat návnadu, čímž by Ktulu vyčerpala svůj limit pro tuto schonpost. Zároveň se Ktulu již jednoduše nevešla do řady figurek hráče, tudíž byla škrtnuta.</h5>
+	
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<h4>Pegas</h4>
+
+	<h5>Pegas měl být také jednou z figurek, avšak pro něj nebyl ani zhotoven vzhled a v průběhu vývoje se na něj prakticky zapomnělo. Také moc přípominal figurku koně z klasického šachu, tudíž by porušoval zásadu vlastních figurek.</h5>
+	</div>
+
+<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+
+
+
+<footer>
+	<div class="footer">
+		<h6>Autoři: Filip Bureš, Lukáš Kaftan, Viktor Mudra, David Stejskal z IT-2</h6>
+
+
+
+	</div>
+</footer>
+<h6 id="obama">děkuejme</h6>
+
+<h6 id="obama">soogog</h6>
+</body>
+</html>
